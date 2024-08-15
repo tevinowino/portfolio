@@ -1,0 +1,209 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navigation {
+    border-bottom: 1px solid rgb(88, 203, 165);
+}
+.menu {
+    display: flex;
+    justify-content: centre;
+    align-items: center;
+    padding: 1rem;
+}
+
+.menu-item {
+    list-style: none;
+    margin-left: 0.5rem;
+    padding: 1rem;
+}
+.menu-item a {
+    text-decoration: none;
+    color: rgb(46, 130, 102);
+    font-weight: 500;
+}
+
+.menu-item a:hover {
+    border-bottom: 2px solid rgb(88, 203, 165);
+    transition: ease-in-out 0.1s;
+}
+
+#landing {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+
+.landing-text {
+    padding: 0.5rem;
+    width: 50%;
+}
+
+.btn {
+    width: 30px;
+    padding: 10px ;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(65, 134, 111);
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background-color: rgb(88, 203, 165);
+    transition: ease-in-out 0.1s;
+    padding: 12px;
+}
+
+.landing-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: rgb(56, 113, 94);
+}
+
+.landing-text p {
+    margin-bottom: 1rem;
+    font-size: larger;
+    color: rgb(65, 134, 111);
+
+}
+
+.landing-image {
+    width: 50%;
+}
+
+.landing-image img {
+    width: 80%;
+}
+
+.links a svg {
+    margin-right: 0.3rem;
+    width: 25px;
+}
+
+.links a svg:hover {
+    border-bottom: solid 2px rgb(88, 203, 165);
+    margin-bottom: 5px;
+    transition: ease-in-out 0.1s;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+
+#about {
+    border: 1.5px solid rgb(56, 113, 94);
+    padding: 0.5rem;
+    margin: 2rem;
+    text-align: center;
+    border-radius: 25px;    
+}
+
+
+h2 {
+    color: rgb(56, 113, 94);
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+#about h3 {
+    color: rgb(56, 113, 94);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+#about p {
+    margin-bottom: 1rem;
+    font-size: larger;
+    color: rgb(65, 134, 111);
+}
+
+#about ul li {
+    color: rgb(65, 134, 111);
+    list-style: none;
+}
+
+#about a {
+    color: rgb(46, 130, 102);
+}
+
+#services {
+    border: 1.5px solid rgb(56, 113, 94);
+    padding: 0.5rem;
+    margin: 2rem;
+    text-align: center;
+    border-radius: 25px;    
+}
+
+#services ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#services ul li {
+    list-style: none;
+    margin-right: 5px;
+    background-color: rgb(65, 134, 111);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+#services ul li:hover {
+    background-color: rgb(46, 130, 102);
+    transition: ease-in-out 0.1s;
+}
+
+#contact {
+    border: 1.5px solid rgb(56, 113, 94);
+    padding: 0.5rem;
+    margin: 2rem;
+    text-align: center;
+    border-radius: 25px;    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form input {
+    margin-bottom: 1rem;
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1.5px solid rgb(56, 113, 94);
+}
+
+form textarea {
+    margin-bottom: 1rem;
+    width: 50%;
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: 1.5px solid rgb(56, 113, 94);
+}
+
+form button {
+    background-color: rgb(56, 113, 94);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1.5px solid rgb(56, 113, 94);
+    width: 5rem;
+}
+
+footer {
+    background-color: rgb(88, 203, 165);
+    color: white;
+    padding: 3rem;
+    margin: 5px;
+    border-radius: 25px;
+}
